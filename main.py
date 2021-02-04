@@ -42,7 +42,6 @@ def get_data(helper: Helper, params) -> None:
         weather_data_df1 = helper.get_data_from_csv(params['path']+ params['file1'], params['separator'])
         weather_data_df2 = helper.get_data_from_csv(params['path']+ params['file2'], params['separator'])
         weather_df = weather_data_df1.append(weather_data_df2)
-        weather_df['ObservationDate'] = pd.to_datetime(weather_df['ObservationDate'])
         weather_df[['WindGust', 'Visibility', 'Pressure']] = weather_df[['WindGust', 'Visibility', 'Pressure']].fillna(0)
         weather_df['Country'] = weather_df['Country'].fillna('')
         weather_df.name='weather_df'
