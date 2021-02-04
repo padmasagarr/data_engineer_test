@@ -1,0 +1,11 @@
+weather_df_pq.parquet.gzip
+mini_pycallgraph.png
+node_modules/
+bin/
+.env sample
+pyvenv.cfg
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class

@@ -1,0 +1,39 @@
+2021-02-04 12:43:24,582 root         INFO     Start: Loading ETL configuration from /Users/padmasagarreddydontham/Downloads/data_engineer_test/config.yml
+2021-02-04 12:43:24,632 root         INFO     Finished: Loading ETL configuration
+2021-02-04 12:43:24,643 root         INFO     EtlUtils created!
+2021-02-04 12:43:24,645 root         INFO     Start: Import data to dataframe from csv raw_data/weather.20160201.csv
+2021-02-04 12:43:25,469 root         INFO     Finished: Imported data to dataframe from csv
+2021-02-04 12:43:25,470 root         INFO     Start: Import data to dataframe from csv raw_data/weather.20160301.csv
+2021-02-04 12:43:27,077 root         INFO     Finished: Imported data to dataframe from csv
+2021-02-04 12:43:27,678 root         INFO     setUp
+2021-02-04 12:43:27,730 root         INFO     test_that_date_column_not_empty_returns_true_if_found_empty
+2021-02-04 12:43:27,738 root         INFO     tearDown
+
+2021-02-04 12:43:27,740 root         INFO     setUp
+2021-02-04 12:43:27,818 root         INFO     test_mock_for_empty_dataframe
+2021-02-04 12:43:27,835 root         INFO     tearDown
+
+2021-02-04 12:43:27,877 root         INFO     setUp
+2021-02-04 12:43:27,932 root         INFO     test_get_hottest_day_returns_hottest_day
+2021-02-04 12:43:27,943 root         INFO     Date of the hottest day: ['2016-02-01']
+2021-02-04 12:43:27,946 root         INFO     tearDown
+
+2021-02-04 12:43:27,950 root         INFO     setUp
+2021-02-04 12:43:27,979 root         INFO     test_get_region_of_hottest_day_returns_region
+2021-02-04 12:43:28,016 root         INFO     Region of hottest day: ['Highland & Eilean Siar']
+2021-02-04 12:43:28,023 root         INFO     tearDown
+
+2021-02-04 12:43:28,032 root         INFO     setUp
+2021-02-04 12:43:28,063 root         INFO     test_get_temp_on_hottest_day_returns_hottest_day
+2021-02-04 12:43:28,068 root         INFO     Temperature on hottest day: [9.8]
+2021-02-04 12:43:28,076 root         INFO     tearDown
+
+2021-02-04 12:43:28,082 root         INFO     setUp
+2021-02-04 12:43:28,085 root         INFO     test_that_max_temperature_function_returns_the_maximum_ScreenTemperature_value
+2021-02-04 12:43:28,085 root         INFO     tearDown
+
+2021-02-04 12:43:28,086 root         INFO     setUp
+2021-02-04 12:43:28,143 root         INFO     test_the_existence_of_main.20160201.csv_and_main.20160301.csv_source_files
+2021-02-04 12:43:28,145 root         INFO     tearDown
+
+2021-02-04 12:43:28,158 root         INFO     tearDownClass

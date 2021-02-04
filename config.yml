@@ -1,0 +1,5 @@
+weather_test:
+    path: raw_data/
+    file1: weather.20160201.csv
+    file2: weather.20160301.csv
+    separator: ','
